@@ -25,10 +25,10 @@ The calculator returns a dictionary containing the mean, variance, standard devi
 
 The calculator uses NumPy to output the 
 
-- (a) mean 
-- (b) variance 
-- (c) standard deviation 
-- (d) max 
-- (e) min, and 
-- (f) sum 
+- mean 
+- variance 
+- standard deviation 
+- max 
+- min
+- sum 
 
