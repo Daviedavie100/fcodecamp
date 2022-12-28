@@ -5,4 +5,5 @@ Instructions for building your project can be found at https://www.freecodecamp.
 
 ## Steps
 
-cal.jpg
+![cal](https://user-images.githubusercontent.com/7541585/209807233-f4e6b5ea-bdd8-4915-aa8f-367eede95dab.jpg)
+
