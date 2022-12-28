@@ -16,12 +16,19 @@ The input of the function is a list containing 9 digits `lst=[0,1,2,3,4,5,6,7,8]
 ### Calculation Process
 
 The function converts the list into a 3 x 3 NumPy array `function=np.array(lst).reshape((3,3))` 
+
 And if `len(lst) !=9` the function raises a `ValueError` with message `'List must contain nine numbers.'`
 
 ### Output
 
+The calculator returns a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
+
 The calculator uses NumPy to output the 
 
-- (a) mean (b) variance (c) standard deviation (d) max (e) min, and 
-- (f) sum of the rows, columns, and elements in a 3 x 3 matrix.
+- (a) mean 
+- (b) variance 
+- (c) standard deviation 
+- (d) max 
+- (e) min, and 
+- (f) sum 
 
