@@ -21,7 +21,7 @@ And if `len(lst) !=9` the function raises a `ValueError` with message `'List mus
 
 ### Output
 
-The calculator returns a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
+The calculator returns a dictionary containing the `mean, variance, standard deviation, max, min, and sum` along both axes and for the flattened matrix.
 
 The calculator uses NumPy to output the 
 
