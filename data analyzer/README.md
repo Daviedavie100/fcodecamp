@@ -1,8 +1,14 @@
 # Demographic Data Analyzer
 
-This is the boilerplate for the Demographic Data Analyzer project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+This is the boilerplate for the Demographic Data Analyzer project. 
 
-In this challenge you must analyze demographic data using Pandas. You are given a dataset of demographic data that was extracted from the 1994 Census database. Here is a sample of what the data looks like:
+Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+
+## Requirements
+
+The challenge uses Pandas library to analyze demographic data.
+
+The demographic dataset was extracted from the 1994 Census database. Here is a sample of what the data looks like:
 
 You must use Pandas to answer the following questions:
 
