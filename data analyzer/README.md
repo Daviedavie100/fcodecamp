@@ -8,7 +8,12 @@ Instructions for building your project can be found at https://www.freecodecamp.
 
 The challenge uses Pandas library to analyze demographic data.
 
-The demographic dataset was extracted from the 1994 Census database. Here is a sample of what the data looks like:
+The demographic dataset was extracted from the 1994 Census database. 
+
+## Dataset Source
+Dua, D. and Graff, C. (2019). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
+
+Here is a sample of what the data looks like:
 
 You must use Pandas to answer the following questions:
 
