@@ -5,14 +5,15 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv('C:/Users/Davie/Documents/GitHub/freeCodeCamp/data/epa-sea-level.csv')
+    df = pd.read_csv(
+        'C:/Users/Davie/Documents/GitHub/freeCodeCamp/data/epa-sea-level.csv')
 
-    #define data
+    # define data
     x = df['Year']
     y = df['CSIRO Adjusted Sea Level']
 
     # Create scatter plot
-    fig, ax = plt.subplots(figsize=(10,6))
+    fig, ax = plt.subplots(figsize=(10, 6))
     plt.scatter(x, y, color='green')
 
     # Get slope, intercept from linregress
@@ -40,4 +41,6 @@ def draw_plot():
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
-draw_plot();
+
+
+draw_plot()
