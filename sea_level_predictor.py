@@ -45,3 +45,14 @@ def draw_plot():
 
 
 draw_plot()
+
+from datetime import datetime
+dates = sm.tsa.datetools.dates_from_range('1880', length=len(df.Year))
+df['Year']=dates
+df
+#df = df.set_index('Year')
+dates = pd.date_range("1880", periods=len(df.Year), freq="A-DEC")
+dates
+#df.index = pd.to_datetime(df.index)
+x=pd.Series(dates)
+x
