@@ -46,6 +46,8 @@ def draw_plot():
 
 draw_plot()
 
+# using statsmodel
+
 from datetime import datetime
 dates = sm.tsa.datetools.dates_from_range('1880', length=len(df.Year))
 df['Year']=dates
