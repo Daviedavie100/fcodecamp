@@ -22,4 +22,4 @@ and if the length of the input list is not equal to 9, then raise a ValueError w
       'sum': [list(np.sum(mtx,axis=0)), list(np.sum(mtx,axis=1)), np.sum(mtx)]
     }
   return calculations
-calculate([0,1,2,3,4,5,6,7,8])
+calculate([10,1,2,3,4,5,6,7,8])
