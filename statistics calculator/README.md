@@ -1,3 +1,7 @@
+# Project
+
+Developed a Statistic Calculator using Python and NumPy libraries that output the mean, variance, standard deviation, max, min, and the sum of the rows, columns, and elements in a 3 x 3 matrix with 100 percent accuracy.
+
 # Mean-Variance-Standard Deviation Calculator
 
 This is the boilerplate for the Mean-Variance-Standard Deviation Calculator project. 
@@ -23,7 +27,7 @@ And if `len(lst) !=9` the function raises a `ValueError` with message `'List mus
 
 The calculator returns a dictionary containing the `mean, variance, standard deviation, max, min, and sum` along both axes and for the flattened matrix.
 
-The calculator uses NumPy to output the 
+The calculator uses NumPy to output the following:
 
 - mean 
 - variance 
