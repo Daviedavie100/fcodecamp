@@ -5,9 +5,8 @@ import numpy as np
 # define function
 
 def calculate(lst):
-
-'''Using numpy to calculate mean, standard deviation, variance, minimum, maximum and sum
-and if the length of the input list is not equal to 9, then raise a ValueError with message'''
+  '''Using numpy to calculate mean, standard deviation, variance, minimum, maximum and sum
+  and if the length of the input list is not equal to 9, then raise a ValueError with message'''
 
   if len(lst) != 9:
     raise ValueError ('List must contain nine numbers.')

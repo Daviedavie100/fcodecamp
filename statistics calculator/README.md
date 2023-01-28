@@ -31,4 +31,3 @@ The calculator uses NumPy to output the
 - max 
 - min
 - sum 
-
