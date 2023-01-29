@@ -1,5 +1,7 @@
 # Medical data visualizer
 
+Cleaned, normalize the medical examination dataset and explored the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices using 2 charts.
+
 ## Project
 
 Visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas libraries. 
