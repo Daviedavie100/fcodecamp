@@ -1,8 +1,11 @@
-# Demographic Data Analyzer
+# Medical data visualizer
+## Project
 
-This is the boilerplate for the Demographic Data Analyzer project. 
+In this project, you will visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. 
 
-Instructions for building your project can be found at https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/demographic-data-analyzer
+## Dataset
+
+The dataset values were collected during medical examinations.
 
 ## Requirements
 
