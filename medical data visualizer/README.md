@@ -1,12 +1,17 @@
 # Medical data visualizer
+
 ## Project
 
 Visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas libraries. 
-Created a chart, where we show the counts of good and bad outcomes for the cholesterol, gluc, alco, active, and smoke variables for patients with cardio=1 and cardio=0 in different panels.
 
-Use the data to complete the following tasks in medical_data_visualizer.py:
+1. Created a chart, which shows the counts of good and bad outcomes for the cholesterol, gluc, alco, active, and smoke variables for patients with cardio=1 and cardio=0 in different panels.
 
 ![image](https://user-images.githubusercontent.com/7541585/215342972-57fb21cb-8235-44ab-b13f-3fe8f3256ee0.png)
+
+2. Created a correlation matrix using the dataset.
+
+![image](https://user-images.githubusercontent.com/7541585/215343116-c2de7385-849a-4784-87af-7c2873921829.png)
+
 
 ## Dataset
 
