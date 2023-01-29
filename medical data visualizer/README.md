@@ -6,7 +6,8 @@ Created a chart, where we show the counts of good and bad outcomes for the chole
 
 Use the data to complete the following tasks in medical_data_visualizer.py:
 
-image.png
+![image](https://user-images.githubusercontent.com/7541585/215342972-57fb21cb-8235-44ab-b13f-3fe8f3256ee0.png)
+
 ## Dataset
 
 The dataset values were collected during medical examinations.
