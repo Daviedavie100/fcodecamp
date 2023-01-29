@@ -2,7 +2,11 @@
 ## Project
 
 Visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas libraries. 
+Created a chart, where we show the counts of good and bad outcomes for the cholesterol, gluc, alco, active, and smoke variables for patients with cardio=1 and cardio=0 in different panels.
 
+Use the data to complete the following tasks in medical_data_visualizer.py:
+
+image.png
 ## Dataset
 
 The dataset values were collected during medical examinations.
@@ -17,38 +21,26 @@ The rows in the dataset represent patients and the columns represent information
 
 Using the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
 
-## Requirements
+## Tasks
 
-The challenge uses Pandas library to analyze demographic data.
+Added an overweight column to the data. 
 
-The demographic dataset was extracted from the 1994 Census database. 
+To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value 0 for NOT overweight and the value 1 for overweight.
 
-python file
+Normalized the data by making 0 always good and 1 always bad. 
 
-Set the appropriate calculation or code and Round all decimals to the nearest tenth.
+If the value of cholesterol or gluc is 1, make the value 0. If the value is more than 1, make the value 1.
+Convert the data into long format and create a chart that shows the value counts of the categorical features using seaborn's catplot(). The dataset should be split by 'Cardio' so there is one chart for each cardio value. The chart should look like examples/Figure_1.png.
 
-## Dataset Source
+Cleaned the data. 
 
-Dua, D. and Graff, C. (2019). [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
+Filter out the following patient segments that represent incorrect data:
+diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))
+height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['height'].quantile(0.025)))
+height is more than the 97.5th percentile
+weight is less than the 2.5th percentile
+weight is more than the 97.5th percentile
 
-## The project seeks to answer the following questions:
+Created a correlation matrix using the dataset. 
 
-1. How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
-
-2. What is the average age of men?
-
-3. What is the percentage of people who have a Bachelor's degree?
-
-4. What percentage of people with advanced education (Bachelors, Masters, or Doctorate) make more than 50K?
-
-5. What percentage of people without advanced education make more than 50K?
-
-6. What is the minimum number of hours a person works per week?
-
-7. What percentage of the people who work the minimum number of hours per week have a salary of more than 50K?
-
-8. What country has the highest percentage of people that earn >50K and what is that percentage?
-
-9. Identify the most popular occupation for those who earn >50K in India.
-
-
+Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle. The chart should look like examples/Figure_2.png.
