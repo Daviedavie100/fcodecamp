@@ -2,7 +2,18 @@
 
 # Project
 
-Analyzed demographic data using Pandas. 
+Developed a Python script to analyze demographic data using Pandas and output the following:
+ 
+the number of each race in the dataset
+the average age of the male gender
+the percentage of people who have a Bachelor's degree
+the percentage of people with advanced education that make more than 50K
+the percentage of people without advanced education make more than 50K
+the minimum number of hours a person works per week
+the percentage of the people who work the minimum number of hours per week have a salary of >50K
+the country that has the highest percentage of people that earn >50K?
+the most popular occupation for those who earn >50K in India.
+ 
 
 This is the boilerplate for the Demographic Data Analyzer project. 
 
